@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<body style="background-color:royalblue;">
+<!-- Image number 1 not sure why this code moved it into my H1 section yet but i like it will look into it later-->
+<div style="float:right;">
+<a href="http://imgur.com/ohMhFOq"><img src="http://i.imgur.com/ohMhFOq.jpg?1" title="source: imgur.com" style="height:300px;width:300px" alt="Corporate-Edge-Printing-Vegas-Mining-Expo"/></a></div>
+<!-- div element block starts here -->
+<div style="background-color:black;color:white;;height:300px">
+<h1 style="color:red;font-size:300%;">HTML Class</h1>
+<p>This is my first time taking an 
+<!-- span element starts here -->
+<span style="color:Green">HTML</span> class</p>
+</div>
+<h2 style="color:red;font-size:300%;"> Goals</h2>
+<p>I'm planning on going into 
+<!-- Image 2 floated to the right of the text -->
+<a href="http://imgur.com/aPl4Qco"><img src="http://i.imgur.com/aPl4Qco.jpg?1" title="source: imgur.com" style="float:right height:100px;width:100px"/></a>
+<!-- Ordered List in Roman Numerals -->
+  <ol type="I">
+  <li>Network security</li> 
+  <li>network administration</li>
+  <li>or web developement.</li>
+  </ol>
+</p>
+<h3 style="color:red;font-size:300%;">Experience</h3>
+<p>So far, I haven't had much experience within the field. I did just start a new career in the field of web developement, SEO, as well as social media marketing.<br>
+my past experience in work includes 12+ years within various construction fields, but the most prominent one was within road work and maitenance.</p>
+<h4 style="color:red;font-size:300%;">Hobbies</h4>
+<p>Some of my hobbies include:
+  <!-- unordered list start -->
+  <ul style="list-style-type:circle">
+  <li></l><i>Soccer<sub>MiaSanMia</sub></i></li>
+  <li><b>Gaming<sup><small>Elder Scrolls</small></sup></b></li>
+  <li><strong>Hiking</strong></li>
+  <li><em>Camping</em></li>
+  <li>Pretty much <del>just being outdoors</del></li></p>
+<h5 style="color:red;font-size:300%;"><mark>Background</mark></h5>
+<p>I am German, and have lived in the U.S. since 1998. It has been a long time, but i will never get a U.S. citizenship.</p>
+<h6 style="color:purple;font-size:300%;">Here's a link!</h6>
+<p><a href="https://www.edgeprinting.com/">Just incase you ever need any printing done, these guys are amazing and can help!</a></p>
+<!-- Start of table with a border -->
+<table style="width:100%;border:4px solid #CCCCCC;overflow:hidden">
+  <tr>
+    <th>Dive-site</th>
+    <th>Shore or Boat Dive</th>
+    <th>Depth of Dive</th>
+  </tr>
+  <tr>
+    <td><center>Crater</center></td>
+    <td><center>Shore</center></td>
+    <td><center>30</center></td>
+  </tr>
+  <tr>
+    <td><center>Catalina Island</center></td>
+    <td><center>Shore</center></td>
+    <td><center>60</center></td>
+  </tr>
+  <tr>
+    <td><center>San Diego Kelp Forrest</center></td>
+    <td><center>Boat</center></td>
+    <td><center>60</center></td>
+  </tr>
+</table>
+<!-- Start description list and nested -->
+<dl>
+  <ul style="float:right">
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+    <li>Black tea</li>
+    <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+  <dt>Dogs</dt>
+  <dd>- are awesome</dd>
+  <dt>Cats</dt>
+  <dd>- are better</dd>
+</dl>
+<!-- This is an iframe i made for work a couple days ago -->
+<iframe allowtransparency="true" height="400" scrolling="auto" seamless="seamless" src="//SurveyAdvantageTools.com/LoudSpeaker/LS.php?LSID=12916" style="border:4px solid #CCCCCC;overflow:hidden;" width="100%"></iframe>
+</body>
+</html>
