@@ -1,0 +1,64 @@
+/* settings for page border,outline, position*/
+div {
+     background: url(http://i.imgur.com/bMGHTSE.jpg) no-repeat   center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100;
+    border: 25px solid black;
+    padding: 10px;
+    margin: 0;
+    outline-color:black;
+    outline-width: 10px;
+    position: static;
+}
+#iframe1{
+  opacity: .4;
+  width: 300px;
+  height: 200px;
+}
+/* setting a value to use in html to activate outline */
+div.solid {outline-style: solid;}
+/* showing the display option with an inline element and aligning to be in the center*/
+ul.thumbnail a {display: inline-block; margin: 0 auto; padding: 0;text-align:center;}
+/* changed height of aside to adjust for div as wella s a block display element and clearing right float*/
+aside {display: block; float: right;             width: 250px; height: 580px; background-color: darkblue;clear:right}
+/*right float for the copyright*/
+details {float: right;}
+h4{text-align: center;}
+h1{text-align: center;font-size: 30px;margin:10px; color: darkblue;}
+#head1{color:darkblue}
+#section1{text-align:center;}
+#section2{width: 85%}
+/* link behavior */
+a.one:link {font-style: oblique;}
+a.one:link {color: blue;}
+a.one:visited {color: red;}
+a.one:hover {color: hotpink;}
+a.one:active {color: purple;}
+a.two:link {font-family: Verdana:}
+
+
+
+.mySlides{display:none;}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  border: none;
+  padding:0;
+  
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
