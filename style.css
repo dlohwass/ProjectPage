@@ -1,13 +1,14 @@
 /* settings for page border,outline, position*/
-div {
+#divmaincontainer {
      background: url(http://i.imgur.com/bMGHTSE.jpg) no-repeat   center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100;
-    border: 25px solid black;
-    padding: 10px;
+    width: auto;
+    height:1080px;
+    border: 0;
+    padding: 0;
     margin: 0;
     outline-color:black;
     outline-width: 10px;
@@ -23,7 +24,7 @@ div.solid {outline-style: solid;}
 /* showing the display option with an inline element and aligning to be in the center*/
 ul.thumbnail a {display: inline-block; margin: 0 auto; padding: 0;text-align:center;}
 /* changed height of aside to adjust for div as wella s a block display element and clearing right float*/
-aside {display: block; float: right;             width: 250px; height: 580px; background-color: darkblue;clear:right}
+aside {display: block; float: right;             width: 250px; height: 1080px; background-color: darkblue;clear:right}
 /*right float for the copyright*/
 details {float: right;}
 h4{text-align: center;}
