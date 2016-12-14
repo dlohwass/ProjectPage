@@ -1,3 +1,4 @@
+//slideshow settings
 var slideIndex = 0;
 showSlides();
 
