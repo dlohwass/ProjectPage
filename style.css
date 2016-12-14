@@ -24,7 +24,7 @@
 /* showing the display option with an inline element and aligning to be in the center*/
 ul.thumbnail a {display: inline-block; margin: 0 auto; padding: 0;text-align:center;}
 /* changed height of aside to adjust for div as wella s a block display element and clearing right float*/
-aside {display: block; float: right;             width: 250px; height: 1080px; background-color: darkblue;clear:right}
+aside {display: block; float: right;             width: 250px; height: 1080px; background-color: lightblue;clear:right}
 /*right float for the copyright*/
 details {float: right;}
 h4{text-align: center;}
