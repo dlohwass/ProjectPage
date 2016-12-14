@@ -1,4 +1,4 @@
-/* settings for page border,outline, position*/
+/* settings for page border,outline, position, background*/
 #divmaincontainer {
      background: url(http://i.imgur.com/bMGHTSE.jpg) no-repeat   center center fixed; 
     -webkit-background-size: cover;
@@ -14,23 +14,25 @@
     outline-width: 10px;
     position: static;
 }
+/*I-frame settings to hold youtube player*/
 #iframe1{
   opacity: .4;
   width: 300px;
   height: 200px;
 }
-/* setting a value to use in html to activate outline */
 
 /* showing the display option with an inline element and aligning to be in the center*/
 ul.thumbnail a {display: inline-block; margin: 0 auto; padding: 0;text-align:center;}
-/* changed height of aside to adjust for div as wella s a block display element and clearing right float*/
+/*  height of aside to adjust for div as well as a block display element and clearing right float*/
 aside {display: block; float: right;             width: 250px; height: 1080px; background-color: blue;clear:right}
 /*right float for the copyright*/
 details {float: right;}
 h4{text-align: center;}
+/*settings for h1*/
 h1{text-align: center;font-size: 30px;margin:10px; color: darkblue;}
 #head1{color:darkblue}
 #section1{text-align:center;}
+/*setting page width for footer section*/
 #section2{width: 85%}
 /* link behavior */
 a.one:link {font-style: oblique;}
@@ -52,16 +54,6 @@ a.two:link {font-family: Verdana:}
   border: none;
   padding:0;
   
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
 }
 
   animation-name: fade;
